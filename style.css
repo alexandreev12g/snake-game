@@ -1,0 +1,36 @@
+body {
+    background-image: url('snake1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#gameContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    margin-top:100px;
+}
+
+#gameBoard{
+    border: 3px solid;
+    margin-bottom: 20px;
+}
+
+#scoreText{
+    font-family: "Permanent Marker", cursive;
+    color: greenyellow;
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+#resetBtn{
+    font-family: "Permanent Marker", cursive;
+    font-size:  22px;
+    width: 100px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
